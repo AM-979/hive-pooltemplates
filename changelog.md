@@ -1,3 +1,24 @@
+##### 0.6-227@240918 2024-09-18
+*   SRBminer v2.6.5 (Added algorithm `astrixhash` for GPU mining AIX/Astrix Network coin on AMD/Nvidia/Intel GPUs, fee 1%; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   Rigel miner v1.19.1 (Minor 2-3% performance improvements on `pyrinhashv2` for Ampere GPUs and newer; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases/tag/1.19.1)
+
+##### 0.6-227@240916 2024-09-16
+*   lolMiner v1.90 (Added support to mine `PyrinHashV2` algo on Nvidia GTX 1000, AMD RX 5000 and newer GPUs, use `PYRINV2` to select the algorithm, fee is 1%; Added dual mining support PyrinHashV2 as second algo with Autolykos2/KarlsenHashV2/FishHash on Nvidia GTX 1000 and newer and AMD RX 6000 and newer GPUs; NOTES: See full changelog at https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.90)
+*   OneZeroMiner v1.4.0b Beta (Add experimental support `xelishashv2` on AMD Vega and newer GPUs for mining XEL|Xelis coin, fee 3%; Add `--disable-amd` and `--disable-nvidia` flags; Notes: 1) It's Beta version so it's may contains bugs & you need manual selection in Miner settings section of Flight Sheet 2) See full changelog and details at https://github.com/OneZeroMiner/onezerominer/releases/tag/v1.4.0b)
+
+##### 0.6-227@240912 2024-09-12
+*   lolMiner v1.89 (Added support to mine `KarlsenHashV2` on Nvidia Pascal and newer and AMD RX 5000 and newer, fee 1%; Added support to dual mine KarlsenHashV2 and Autolykos2 with TON/GRAM and similar; Added support to mine BLOCX. BLOCX mining uses Autolykos2; NOTES: Please, see full changelog at https://github.com/Lolliedieb/lolMiner-releases/releases)
+
+##### 0.6-227@240911 2024-09-11
+*   Rigel miner v1.19.0 (Add `karlsenhashv2` algorithm incl. dual/triple combos supported as the primary algorithm) with PYI/GRAM/ZIL; Add support `pyrinhashv2  algorithm incl. support dual/triple combos supported as the secondary algorithm with ABEL/ERGO/BLOCX/IRON/CFX/KLS/ZIL; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases/tag/1.19.0)
+*   SRBminer v2.6.4 (Added algorithm `pyrinhashv2` for Pyrin coin for GPU mining on AMD/Intel, fee 0.85%; Added support for dual mining `pyrinhashv2` as second algo with `karlsenhashv2`/`fishhash`/`autolykos2` on AMD RDNA* and Intel' GPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+    
+##### 0.6-227@240903 2024-09-03
+*   Rigel v1.18.2) (Add support for mining BLOCX coin, please use `autolykos2` algo and mandatory option `--coin blocx`; Fixed performance regression on CMP 170HX cards on XEL mining; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases/tag/1.18.2)
+
+##### 0.6-227@240902 2024-09-02
+*   SRBminer v2.6.3 (Add support `blocx_autolykos2` algorithm for mining BLOCX coin by AMD/Nvidia/Intel GPUs, fee 1%; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+
 ##### 0.6-227@240823 2024-08-23
 *   SRBminer v2.6.2 ( Added `xelishashv2_pepew` for CPU mining PEPEW coin, fee 1.5%; Improved hashrate for all progpow based algorithms on AMD Vega and RX 4xx/5xx; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
 *   XMRig v6.22.0 (rebuilded with gcc v13 version with fixed broken dashboard stats on some cases
