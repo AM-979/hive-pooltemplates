@@ -1,3 +1,23 @@
+##### 0.6-227@241127 2024-11-27
+*   Rigel miner v1.19.3 (Fixed `kawpow` algorithm which is broken in v1.19.2; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
+*   SRBMiner v2.7.2 ( Added algorithm `yespowerdogemone` for mining Dogemone coin on CPU, fee 0.85%; Added support for dual mining KARLSENHASHV2/BLAKE3_DECRED on AMD RDNA/RDNA2/RDNA3, Nvidia and Intels GPUs; Fixed broken progpow algorithms on AMD VEGA GPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig v0.41.4 (Fixed crash on big Nvidia rigs (8+ GPUs) for progpow family algorithms; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+  
+##### 0.6-227@241126 2024-11-26
+*   Rigel miner v1.19.2 (Improved performance `xelishashv2` for mining XEL/Xelis on Nvidia CMP 170HX up to ~17%; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
+
+##### 0.6-227@241125 2024-11-25
+*   WildRig v0.41.2 (Add `phihash` algorithm; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+
+##### 0.6-227@241122 2024-11-22
+*   lolMiner v1.92 (Added support `octopus` algo to mine Conflux on AMD Vega and newer GPUs; NOTES: Please, see full changelog at https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.92)
+*   SRBMiner v2.7.1 (Updates dual modes for `hoohash`; Added algorithm `progpow_quai` for GPU mining, fee 0.85% NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   OneZeroMiner v1.4.2 (Improved `xelis` mining performance on Nvidia CMP 170HX; Minor `xelis` mining performance improvements on AMD VEGAs; Lowered dev-fee to 2% on `dynex`; NOTES: Please, see full changelog at https://github.com/OneZeroMiner/onezerominer/releases/tag/v1.4.2)
+*   BzMiner v21.5.3 (Bug fixes and optimizations, see details at https://github.com/bzminer/bzminer/releases/tag/v21.5.3)
+*   WildRig v0.40.9 (Returned back `progpow-quai` with 0.75% dev-fee; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases/tag/0.40.9)
+*   XMRig v6.22.2 (Bug fixes, see details at https://github.com/xmrig/xmrig/releases/tag/v6.22.2)
+*   XMRig-MO v6.22.2-mo1 (Synced code with XMRig v6.22.2; NOTES: Please, see full changelog at https://github.com/MoneroOcean/xmrig/releases/tag/v6.22.2-mo1)
+
 ##### 0.6-227@241017 2024-10-17
 *   SRBminer v2.6.9 (Added algorithm `walahash` for mining Waglayla coinon AMD/Nvidia/Intel GPUs, fee 1%; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
 
