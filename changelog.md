@@ -1,3 +1,22 @@
+##### 0.6-228@241219 2024-12-19
+*   miniZ v2.4e (Added support for `fishhash` algo for AMD and NVIDIA GPUs, fee 1%; Added support for `meraki` algo for mining TLS/Telestai coin on AMD and and NVIDIA GPUs, fee 1%; Added support for `nxlhash` algo for mining NXL/Nexell-AI coin on AMD and and NVIDIA GPUs,fee 1%; Removed support for KarlsenHash and PyrinHash; NOTES: Please, see full changelog at https://miniz.cc/2024/12/15/miniz-v24e-is-out )
+*   WildRig v0.41.7 (Fixes & improvements on Intel GPUs support; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+  
+##### 0.6-228@241216 2024-12-16
+*   `HIVEON OS LINUX CLIENT v0.6-228`
+*   Update `nvtool` to v1.85 (add option `--maxtemp` to show max GPU temp)
+*   Small improvements and fixes on supporting Nvidia GPUs (Add display GPU max temp to `nvidia-info`; Add workaround to fix setting PL on laptop chips on the latest drivers)
+*   Small improvements and fixes on supporting AMD GPUs (Add support ROCm v6.0; Fixed some AMD GPUs reporting issues on latest drivers)
+*   Add support reporting temp & fan speed on Intel dGPUs on newer kernel modules
+*   Other minor improvements & fixes
+
+##### 0.6-227@241210 2024-12-10
+*   OneZeroMiner v1.4.3 (Performance improvement on Nvidia cards on XEL/`Xelis` mining; Minor performance on XEL/`Xelis` mining mprovement on some AMD cards; Some bugs fixes on Dynex mining; NOTES: Please, see full changelog at https://github.com/OneZeroMiner/onezerominer/releases/tag/v1.4.3)
+*   miniZ v2.4d2 (Fixed memory leak on ProgPow family algorithms; Added support for `meowpow` algo for mining MEWC/MeowCoin, fee 1%; NOTES: Please, see full changelog at https://miniz.cc/2024/12/10/miniz-v24d2-is-out)
+
+##### 0.6-227@241206 2024-12-06
+*   WildRig v0.41.5 (Fixed crash on mixed rigs; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+  
 ##### 0.6-227@241127 2024-11-27
 *   Rigel miner v1.19.3 (Fixed `kawpow` algorithm which is broken in v1.19.2; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
 *   SRBMiner v2.7.2 ( Added algorithm `yespowerdogemone` for mining Dogemone coin on CPU, fee 0.85%; Added support for dual mining KARLSENHASHV2/BLAKE3_DECRED on AMD RDNA/RDNA2/RDNA3, Nvidia and Intels GPUs; Fixed broken progpow algorithms on AMD VEGA GPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
