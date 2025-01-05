@@ -1,3 +1,27 @@
+##### 0.6-229@241231 2024-12-31
+*   lolMiner v1.93 (Significantly improved core requirements and efficiency of AMD GPUs on mining `Conflux`; Added support to mine `Cortex` for AMD RX 7000 series; NOTES: Please, see full changelog at https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.93)
+
+##### LINUX IMAGE RELEASE 0.6-229 2024-12-31
+*   Stable Image branch Ubuntu 22.04 LTS based ("jammy")
+*   Linux kernel: v6.6.60
+*   Nvidia driver: v550.142
+*   AMD OpenCL ROCm (kernel module):  v5.6.1 (v6.8.2411)
+*   Hive OS Linux GPU client: v0.6-229
+*   md5sum cc685377bf05f077336fb58b10798790
+
+##### 0.6-229@241230 2024-12-30
+*   `HIVEON OS LINUX CLIENT v0.6-229`
+*   Minor improvements & fixes
+
+##### 0.6-228@241229 2024-12-29
+*   SRBMiner v2.7.4 (Added support for dual mining `fishahsh`+`walahash` on AMD RDNA and newer and Nvidia Turing and newer GPUs; Various fixes; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig v0.41.9 (Stability fixes mainly for progpow family algorithms; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+
+##### 0.6-228@241223 2024-12-23
+*   SRBMiner v2.7.3 (Hashrate improvement for algorithms `walahash`/ `astrixhash`/ `nxlhash` on Nvidia CMP GPUs; Added support for 'hoohashv1' to mine coin PugDag; Various fixes; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig v0.41.8 (Slightly improved `phihash`; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+*   BzMiner v22.0.0 (Add support mining `Blocx` coin; Add new dual modes: Ergo+Warthog and Blocx+Warthog on Nvidia GPUs; Bug fixes and optimizations, see details at https://github.com/bzminer/bzminer/releases)
+
 ##### 0.6-228@241219 2024-12-19
 *   miniZ v2.4e (Added support for `fishhash` algo for AMD and NVIDIA GPUs, fee 1%; Added support for `meraki` algo for mining TLS/Telestai coin on AMD and and NVIDIA GPUs, fee 1%; Added support for `nxlhash` algo for mining NXL/Nexell-AI coin on AMD and and NVIDIA GPUs,fee 1%; Removed support for KarlsenHash and PyrinHash; NOTES: Please, see full changelog at https://miniz.cc/2024/12/15/miniz-v24e-is-out )
 *   WildRig v0.41.7 (Fixes & improvements on Intel GPUs support; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)

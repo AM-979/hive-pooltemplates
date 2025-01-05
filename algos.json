@@ -2569,11 +2569,16 @@
     {
         "name": "karlsenhash",
         "coins": [
-            "NXL",
             "NTL",
             "CSS",
-            "PUG",
             "Nicehash-KarlsenHash"
+        ]
+    },
+
+    {
+        "name": "hoohashv11",
+        "coins": [
+            "PUG"
         ]
     },
 
@@ -2797,7 +2802,8 @@
         "name": "xelishashv2",
         "coins": [
             "PEPEW",
-            "XEL"
+            "XEL",
+            "Nicehash-XelisHashV2"
         ]
     },
 
